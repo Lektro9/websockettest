@@ -72,7 +72,10 @@
 export default {
   name: 'RocketChat2',
   props: {
-    msg: String,
+    msg: {
+      type: String,
+      default: '',
+    },
   },
   data: function () {
     return {
